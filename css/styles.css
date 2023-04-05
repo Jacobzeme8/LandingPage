@@ -12,8 +12,8 @@
  */
 
   .portfolio-image{
-  height: 38vh !important;
-  /* object-fit: cover !important; */
+  /* height: 30vh !important; */
+  object-fit: cover !important;
   width: 100% !important;
   }
 :root {
@@ -11009,13 +11009,21 @@ html {
   border-radius: 0.5rem;
   overflow: hidden;
 }
+/* .portfolio-text{
+  position: absolute;
+  top: 2px;
+  visibility: hidden;
+}
+.portfolio-text:hover{
+  visibility:visible;
+} */
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
   top: 0;
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: rgba(26, 188, 156, .9);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
