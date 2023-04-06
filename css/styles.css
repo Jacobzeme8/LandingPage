@@ -10,7 +10,10 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-
+.skill{
+  height: 10vh;
+  width: 10vw;
+}
   .portfolio-image{
   /* height: 30vh !important; */
   object-fit: cover !important;
@@ -10986,6 +10989,8 @@ html {
 }
 .masthead .masthead-avatar {
   width: 15rem;
+  height: 15rem;
+  object-fit: cover;
 }
 
 @media (min-width: 992px) {
