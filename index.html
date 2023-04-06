@@ -29,7 +29,7 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
+                        <!-- <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li> -->
                     </ul>
                 </div>
             </div>
@@ -49,15 +49,15 @@
                 <!-- Masthead Subheading-->
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col-md-4 ">
                             <p class="fs-3">Languages</p>
                             <p>JavaScript, HTML, CSS, C#, SQL</p>
                         </div>
-                        <div class="col-4">
+                        <div class="col-md-4" >
                             <p class="fs-3">FrameWorks</p>
                             <p>Node.js, Vue, .NET</p>
                         </div>
-                        <div class="col-4">
+                        <div class="col-md-4 ">
                             <p class="fs-3">DataBases</p>
                             <p>MongoDB,  mySQL,  Mongoose,  Dapper</p>
                         </div>
@@ -68,7 +68,7 @@
         </header>
         <!-- Portfolio Section-->
         <section class="page-section portfolio" id="portfolio">
-            <div class="container">
+            <div class="container-fluid">
                 <!-- Portfolio Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
                 <!-- Icon Divider-->
@@ -79,31 +79,51 @@
                 <!-- Portfolio Grid Items-->
                 <div class="row justify-content-center">
                     <!-- Portfolio Item 1-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto">
+                    <div class="col-md-8 col-lg-6 mb-5 d-flex flex-column align-items-center">
+                        <h3>Stacked Decks</h3>
+                        <div class="portfolio-item flex-fill">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class=" text-center text-white">
-                                    <p class="portfolio-text">Some kind of description</p>
+                                    <p class="portfolio-text p-3 mt-3">Stacked Decks is a web Appliction made by myself and a small team at Boise Codeworks. We wanted to design an app that makes it easy and fun to design your own workouts, AKA decks, by filling it with cards. You can make your own deck, post your deck to the public, save others decks and make them your own. You can also track your progress per deck.</p>
+                                    <p> <b> <a class="text-center text-white" href="https://stackeddecks.onrender.com"> Click here to see the page</a></b></p>
+                                    <p>
+                                        
+                                    </p><b>Note: This site is hosted on a free service so it may take some time to initally load</b>
                                 </div>
                             </div>
-                            <img class="img-fluid portfolio-image" src="assets\img\portfolio\StackedDecksPicture.png" alt="..." />
+                            <img class="img-fluid portfolio-image flex-fill" src="assets\img\portfolio\StackedDecksPicture.png" alt="..." />
                             
                         </div>
                     </div>
                     <!-- Portfolio Item 2-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto">
+                    <div class="col-md-8 col-lg-6 mb-5 d-flex flex-column align-items-center">
+                        <h3>Keeper</h3>
+                        <div class="portfolio-item flex-fill">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="text-center text-white">
+                                    <p class="portfolio-text p-3 mt-3">Keeper was my final application at Boise CodeWorks. You can post pictures, AKA keeps, and save them into a album, AKA vaults. You can visits others accounts, vaults and keeps as well as make vaults private. This was built using a vue frontend and a C# backend with a SQL database, with dapper as a ORM. There 100 postman tests to insure proper privacy, protection, and quality</p>
+                                    <p> <a class="text-center text-white" href="https://keeper-5s1z.onrender.com"> Click here to see the page</a></p>
+                                    <p>
+                                        
+                                    </p><b>Note: This site is hosted on a free service so it may take some time to initally load</b>
+                                </div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="..." />
+                            <img class="img-fluid" src="assets\img\portfolio\KeepPicture.png" alt="..." />
                         </div>
                     </div>
                     <!-- Portfolio Item 3-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto">
+                    <div class="col-md-8 col-lg-6 mb-5 d-flex flex-column align-items-center">
+                        <h3>Towers</h3>
+                        <div class="portfolio-item flex-fill">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="text-center text-white">
+                                    <p class="portfolio-text p-3 mt-3"> Tower was my first full-stack application. You are able to create events, buy tickets for events and comment on the events page. On your account page you are able to see what events you have created, cancel those events and dicard your ticket. This page has mostly mock data in it from postman tests. I used vue as a frontend framework and Node for the backend, along with mongoose and mongoDB.</p>
+
+                                    <p> <a class="text-center text-white" href="https://towerjzm.onrender.com"> Click here to see the page</a></p>
+                                    <p>
+                                        
+                                    </p><b>Note: This site is hosted on a free service so it may take some time to initally load</b>
+                                </div>
                             </div>
                             <img class="img-fluid portfolio-image" src="assets\img\portfolio\TowerPicture.png" alt="..." />
                         </div>
@@ -151,8 +171,8 @@
                 </div>
                 <!-- About Section Content-->
                 <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead">My Name is Jacob, I'm a software developer for web applications. I've graduated Boise Codeworks's full-stack program. I know both front end and back end developement, as well as have experience with API's and databases.</p></div>
-                    <div class="col-lg-4 me-auto"><p class="lead">I have a passion for delivering quality product, as well as solving tough problems. I love to work on my own projects but also work in teams quite well. I'm open to networking and working on something new</p></div>
+                    <div class="col-lg-4 ms-auto"><p class="lead">My Name is Jacob, I'm a software developer for web applications. I've graduated Boise Codeworks's full-stack program. I know both front end and back end developement, and am experienced with API's and databases.</p></div>
+                    <div class="col-lg-4 me-auto"><p class="lead">I have a passion for delivering quality product, as well as solving new problems. I love to work on my own projects but also work in teams quite well. I'm open to networking and working on something new</p></div>
                 </div>
                 <!-- About Section Button-->
                 <!-- <div class="text-center mt-4">
@@ -182,9 +202,9 @@
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h4 class="text-uppercase mb-4">Around the Web</h4>
                         <!-- <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a> -->
-                        <!-- <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a> -->
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/jacob-martinez-a429ab269/"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/Jacobzeme8"><i class="fab fa-fw fa-github"></i></a>
+                        <a title="resume" class="btn btn-outline-light btn-social mx-1" href="https://docs.google.com/document/d/13p9hqiOUvuFfNutk483dO9IpswAYgb97Uib4XTUc_yU/edit"><i class="fa-solid fa-file"></i></a>
+                        <a title="linkedin" class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/jacob-martinez-a429ab269/"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                        <a title="github" class="btn btn-outline-light btn-social mx-1" href="https://github.com/Jacobzeme8"><i class="fab fa-fw fa-github"></i></a>
                         
                         <!-- <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a> -->
                     </div>
@@ -202,7 +222,7 @@
         </footer>
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; Your Website 2023</small></div>
+            <!-- <div class="container"><small>Copyright &copy; Your Website 2023</small></div> -->
         </div>
         <!-- Portfolio Modals-->
         <!-- Portfolio Modal 1-->
