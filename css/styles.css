@@ -2858,7 +2858,7 @@ textarea.form-control-lg {
   --bs-btn-bg: #1abc9c;
   --bs-btn-border-color: #1abc9c;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #16a085;
+  --bs-btn-hover-bg: #020c0a;
   --bs-btn-hover-border-color: #15967d;
   --bs-btn-focus-shadow-rgb: 60, 198, 171;
   --bs-btn-active-color: #fff;
@@ -11014,21 +11014,18 @@ html {
   border-radius: 0.5rem;
   overflow: hidden;
 }
-/* .portfolio-text{
-  position: absolute;
-  top: 2px;
-  visibility: hidden;
+.portfolio-text{
+  color: rgb(242, 84, 45);
+  font-weight: bolder;
 }
-.portfolio-text:hover{
-  visibility:visible;
-} */
+
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
   top: 0;
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, .9);
+  background-color: rgba(30, 30, 36, .96);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
