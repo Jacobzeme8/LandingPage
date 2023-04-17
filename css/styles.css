@@ -11012,11 +11012,35 @@ html {
   display: block;
   /* max-width: 25rem; */
   border-radius: 0.5rem;
+  background-color: rgba(30, 30, 36, .96);
   overflow: hidden;
 }
 .portfolio-text{
   color: rgb(242, 84, 45);
   font-weight: bolder;
+  position: absolute;
+  top: 10px;
+  left: 1vw;
+  right: 1vw;
+  /* overflow: auto; */
+}
+
+.note{
+  position: absolute;
+  bottom: 10px;
+  left: 10vw;
+  right: 10vw;
+  top: 40vh;
+  bottom: 5vh;
+}
+
+.link{
+  position: absolute;
+  bottom: 10px;
+  left: 10vw;
+  right: 10vw;
+  top: 37vh;
+  bottom: 15vh;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption {
@@ -11029,6 +11053,7 @@ html {
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
+  overflow: auto;
 }
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
   font-size: 1.5rem;
